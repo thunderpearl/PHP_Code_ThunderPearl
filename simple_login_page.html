@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Login page</title>
+    </head>
+    <body>
+        <h1>Simple Login Page</h1>
+        
+      
+        <form name="login">
+            Username<input type="text" name="userid"/>    
+            Password<input type="password" name="pswrd"/> 
+            
+            <!--// This is the  normal username and password form. 
+        // "type" refers to the what type of data is gonna be.
+        
+          // "name's" value "userid" will refers to how we will be handling the input in the "name" field.
+            // Like in below javascript how we gonna handle the value of name.
+            // Value of name will be  handled by "userid"
+              -->
+          
+            
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+            
+            
+        </form>
+        
+        <!--If we put "select" inside the form then list will come besides the cancel option-->
+        <!--Else the "select" will come down in the second line-->
+        
+            <select>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        
+        <br>-----------</br>
+   <form action="action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+        
+       Blank Space- Taylor Swift<br>:
+        <audio controls>  <!--This code is for putting the audio file in the webpage :D :D :D -->
+            <source src="Blank Space.ogg" type="audio/ogg">
+            <source src="Blank Space.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        
+        var text1 = Bang Bang Hrithik Kat.addTextTrack("caption");
+        text1.addCue(new TextTrackCue("Test text", 01.000, 04.000, "", "", "", true));
+        
+        
+        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                    window.open('wow.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+    </body>
+</html>
+
+  

@@ -1,0 +1,108 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <link type = "text/css" rel = "stylesheet" href = "C:\xampp\htdocs\Webdesigntesting\woww.css"/>
+        <title> wow 3.3.5 </title>
+        
+        <style>
+            body
+            {
+                
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    
+    <body background = "H:\WebDesign\HTML\proj2_test\1634231.jpg">
+
+        <nav id="nav01"></nav>
+        <footer id="foot01"></footer>
+    
+        
+        
+        <div id="choice">
+            <h2 style="font-style:roman; color:#A385C2; text-align: center">REALM</h2>
+            <div class = "content"><a href="https://www.warmane.com/"> Deathwing </a></div>
+            <div class = "content"><a href="https://www.warmane.com/"> Lordaeron </a></div>
+            <div class = "content"><a href="https://www.warmane.com/"> Ragnaros </a></div>
+            <div class = "content"><a href="https://www.warmane.com/"> Frostwolf </a></div>
+        </div>
+            
+            <div id = "mid">
+                <div id="mid1">
+                    <h3 class="team">Allaince</h3>
+                    <p>Warmane is  </p>
+                </div>
+                
+                <div id="mid2">
+                    <h3 class="team">Horde</h3>
+                    <p>lets see what it is going to be</p>
+                
+                </div>
+                
+                <div id="currentnews">
+                    
+                <h2 id="newstitle"> Realm News </h2>
+                    <p class="data">fdsgfdsfsfsfdsfdffffsffdfdfdsfdfgsdggsgsdgdsgdfdsfdsfsdfsdfdf</p>
+                    <p class="data">fdsgfdsfsfsfdsfdffffsffdfdfdsfdfgsdggsgsdgdsgdfdsfdsfsdfsdfdf</p>
+                    <p class="data">fdsgfdsfsfsfdsfdffffsffdfdfdsfdfgsdggsgsdgdsgdfdsfdsfsdfsdfdf</p>
+                    <p class="data">fdsgfdsfsfsfdsfdffffsffdfdfdsfdfgsdggsgsdgdsgdfdsfdsfsdfsdfdf</p>
+                    <p class="data">fdsgfdsfsfsfdsfdffffsffdfdfdsfdfgsdggsgsdgdsgdfdsfdsfsdfsdfdf</p>
+                    <p class="data">fdsgfdsfsfsfdsfdffffsffdfdfdsfdfgsdggsgsdgdsgdfdsfdsfsdfsdfdf</p>
+                    <p class="data">fdsgfdsfsfsfdsfdffffsffdfdfdsfdfgsdggsgsdgdsgdfdsfdsfsdfsdfdf</p>
+                   
+                    
+                </div>    
+                
+            </div>
+      
+        <div id="userdata">
+              <form>
+                <h1>Create Logon</h1>
+                <div class="line"><label for="username">Username *: </label><input type="text" id="username" /></div>
+                <pre></pre>
+                <div class="line"><label for="pwd">Password *: </label><input type="password" id="pwd" /></div>
+                <pre></pre>
+                <!-- You may want to consider adding a "confirm" password box also -->
+                <div class="line"><label for="surname">Surname *: </label><input type="text" id="surname" /></div>
+                <pre></pre>
+                <div class="line"><label for="other_names">Other Names *: </label><input type="text" id="names" /></div>
+                <pre></pre>
+                <div class="line"><label for="dob">Date of Birth *: </label><input type="text" id="dob" /></div>
+                <pre></pre>
+                <div class="line"><label for="email">Email *: </label><input type="email" id="email" /></div>
+                <pre></pre>
+                <!-- Valid input types: http://www.w3schools.com/html5/html5_form_input_types.asp -->
+                <div class="line"><label for="tel">Telephone: </label><input type="text" id="tel" /></div>
+                <pre></pre>
+                <div class="line"><label for="add">Address *: </label><input type="text" id="add" /></div>
+                <pre></pre>
+                <div class="line"><label for="ptc">Post Code *: </label><input type="text" id="ptc" /></div>
+                <pre></pre>
+                <div class="line submit"><input type="submit" value="Submit" /></div>
+ 
+                <p>Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!.</p>
+            </form>
+          
+                   <pre></pre>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+            <a href="registration_page.html"><input type="button" value="New User"></a>   <! This way we forwarded a page to  other  page on click.>    
+           
+                </form>
+            
+              <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                    window.open('Supporting_page.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+          </div>
+        <script src="woww.js"></script>
+    </body>
+</html>

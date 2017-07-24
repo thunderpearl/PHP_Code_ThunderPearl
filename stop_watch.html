@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>A script on this page starts this clock:</p>
+
+<p id="demo"></p>
+
+<button onclick="myStopFunction()">Stop time</button>
+
+<script>
+var myVar = setInterval(function(){ myTimer() }, 1000);  /* This function will be executed every 1 sec */
+
+function myTimer() {
+    var d = new Date();  /* create the date object */
+    var t = d.toLocaleTimeString(); /* convert to local time format */
+    document.getElementById("demo").innerHTML = t;
+}
+
+function myStopFunction() {
+    clearInterval(myVar);  /* stop the setInterval's timer and can be used only when setInterval() is used with timer */
+}
+</script>
+
+</body>
+</html>

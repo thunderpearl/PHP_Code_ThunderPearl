@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="ThunderPearl">
+	<title>Form 3</title>
+</head>
+
+<body>
+	<!--In case if we want to send our input data to the same script-->
+	<form method="POST" action="<?php echo htmlspecialchars($_SERVER[PHP_SELF]);?>">
+		Username:
+		<input type="text" name="username" value="muhahha" />
+		<br>
+		
+		Password:
+		<input type="password" name="password" value="muhahha" />
+		<br>
+
+		<input type="submit" value="submit" />
+		<input type="reset" value="reset" />
+	</form>
+</body>
+</html>

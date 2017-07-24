@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    // "myForm" has been taken here bcoz Only form elements with a "name" attribute 
+    //will have their values passed when submitting a form.
+    
+    // Netscape created javascript so at that time they used "name" as we use "id"
+    // But, these are still used may be bcoz I.E. will not recognize "id".
+
+    
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="demo_form.asp"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

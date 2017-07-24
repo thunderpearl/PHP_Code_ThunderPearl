@@ -1,0 +1,6 @@
+## We have our local host here in "Webdesigntesting", so we have our "Code_Ignitor"
+## folder in here, as well as we have copy files of "Code_Ignitor" in here.
+## So, it can work as directly calling the "code_igni_index.php" file and
+## also through "phpcourse.dev:8080/C_ignitor"
+## "C_ignitor" is the folder we have put inside htdocs. We have edit the name 
+## by ourselves.

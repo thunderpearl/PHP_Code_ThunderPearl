@@ -1,0 +1,163 @@
+/*#topline
+{
+    padding-top: 30px;
+}*/
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #79a6d2;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #336699;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #4080bf;
+    color: white;
+}
+
+/* This is the designing of the text fields required */
+.line
+{
+    font-family:Times;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ccccff;
+    color: #6666cc;
+}
+
+
+/* Its for the drop properties of the field like height and all */
+.drop
+{
+    
+    font-family:Times;
+    width: 40px;
+    height: 13px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    background-color: azure;
+    color: #6666cc;
+}
+
+
+/* This is for the designing of "Property Required" Field without dropping*/
+
+
+/* This goes for the Top of the page */
+#TOP
+{
+    
+    background-color: #264d73;
+    border-radius: 13px;
+
+  
+}
+
+
+/* For the menu bar we have on the Top */
+.menu
+{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-family:cursive;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: aqua;
+    
+}
+
+
+/* This is for the left Navigation Bar */
+#navigation
+{
+    float: left;
+    display: inline;
+    border: 2px solid #204060;
+    border-radius: 5px;
+    width: 300px;
+    height: 800px;
+    margin-top: 0px;   
+    
+}
+
+
+
+/* This is for the design of the form  */
+#form
+{
+    
+    height: 1000px;
+    border-right: 2px solid #6E3D9E;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 320px;
+    width: 800px;
+    font-size: 17px;
+}
+
+.class
+{
+    margin-left: 5px;
+}
+  
+
+.line
+{
+    margin-left: 5px;
+}
+
+
+/* This is highlighted color of the top menu */
+#TOP .menu a
+{
+    color: #00e6e6;
+}
+
+/* What happens when mouse hover over the menu fields */
+#TOP .menu a:hover
+{
+    
+    color: #f2e6ff;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .7s ease;
+}
+   
+
+/* For the Headings of the Form */
+h3
+{
+    
+    color: #29293d;
+}
+
+
+
